@@ -2,7 +2,7 @@
 
 # Unreal part run this as root
 
-apt update -yy
+apt upgrade -yy
 apt install build-essential -y
 apt install libssl-dev -y
 
