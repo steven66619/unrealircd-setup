@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Unreal part run this as root
-
-apt upgrade -yy
+apt update 
+apt upgrade -y
 apt install build-essential -y
 apt install libssl-dev -y
 
