@@ -3,11 +3,11 @@
 # Unreal part run this as root
 
 apt update -yy
-apt install build-essential
-apt install libssl-dev
+apt install build-essential -y
+apt install libssl-dev -y
 
 # anope
 
-apt install cmake 
+apt install cmake -y
 
 echo "All done be sure to su into the username you want to install unrealircd and anope on"
